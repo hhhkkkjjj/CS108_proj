@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:text="Bunny World"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="bunny world"
+            android:textSize="20sp"
+            android:id="@+id/bunny"
+            android:onClick="startBunny"/>
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="New Game"
+            android:textSize="20sp"
+            android:id="@+id/play"
+            android:onClick="newGame"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Edit Game"
+            android:textSize="20sp"
+            android:id="@+id/edit"
+            android:onClick="editGame"/>
+<!--        <Button-->
+<!--            android:layout_width="180dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Delete Game"-->
+<!--            android:textSize="20sp"-->
+<!--            android:id="@+id/delete"-->
+<!--            android:onClick="delGame"/>-->
+    </LinearLayout>
+
+
+</LinearLayout>
